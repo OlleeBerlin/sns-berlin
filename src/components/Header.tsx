@@ -15,19 +15,22 @@ export default function Header() {
       name: 'Leistungen', 
       href: '#services',
       dropdown: [
-        { name: 'Infrastruktur', href: '#services', description: '3CX, Hardware, Netzwerk' },
-        { name: 'Cloud-Lösungen', href: '#services', description: 'Microsoft 365, Azure' },
-        { name: 'Security', href: '#services', description: 'SOC, Firewalls, Backup' },
-        { name: 'Managed Services', href: '#services', description: '24/7 Monitoring & Support' }
+        { name: 'Infrastruktur', href: '/leistungen/infrastruktur', description: '3CX, Hardware, Netzwerk' },
+        { name: 'Cloud-Lösungen', href: '/leistungen/cloud', description: 'Microsoft 365, Azure' },
+        { name: 'Security', href: '/leistungen/security', description: 'SOC, Firewalls, Backup' },
+        { name: 'Managed Services', href: '/leistungen/managed-services', description: '24/7 Monitoring & Support' },
+        { name: 'Künstliche Intelligenz', href: '/leistungen/ki', description: 'KI-Beratung, ML, Automatisierung' },
+        { name: 'Softwareentwicklung', href: '/leistungen/softwareentwicklung', description: 'Individual-Software, APIs' },
+        { name: 'Anwendungen', href: '/leistungen/anwendungen', description: 'DocuWare, Lettershop' }
       ]
     },
     { 
       name: 'Unternehmen', 
       href: '#team',
       dropdown: [
-        { name: 'Über uns', href: '#team', description: 'Unser Team & Vision' },
-        { name: 'Referenzen', href: '#team', description: 'Erfolgreiche Projekte' },
-        { name: 'Karriere', href: '#team', description: 'Jobs & Praktika' }
+        { name: 'Über uns', href: '/unternehmen/ueber-uns', description: 'Unser Team & Vision' },
+        { name: 'Referenzen', href: '/unternehmen/referenzen', description: 'Erfolgreiche Projekte' },
+        { name: 'Karriere', href: '/unternehmen/karriere', description: 'Jobs & Praktika' }
       ]
     },
     { name: 'Kontakt', href: '#contact' },

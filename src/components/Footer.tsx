@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function Footer() {
   const currentYear = new Date().getFullYear()
@@ -100,15 +101,15 @@ export default function Footer() {
               © {currentYear} SNS Berlin. Alle Rechte vorbehalten.
             </div>
             <div className="flex space-x-6 text-sm">
-              <a href="/impressum" className="text-blue-100 hover:text-berlin-orange transition-colors">
+              <Link href="/impressum" className="text-blue-100 hover:text-berlin-orange transition-colors">
                 Impressum
-              </a>
-              <a href="/datenschutz" className="text-blue-100 hover:text-berlin-orange transition-colors">
+              </Link>
+              <Link href="/datenschutz" className="text-blue-100 hover:text-berlin-orange transition-colors">
                 Datenschutz
-              </a>
-              <a href="/agb" className="text-blue-100 hover:text-berlin-orange transition-colors">
+              </Link>
+              <Link href="/agb" className="text-blue-100 hover:text-berlin-orange transition-colors">
                 AGB
-              </a>
+              </Link>
             </div>
           </div>
         </div>
