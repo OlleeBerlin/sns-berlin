@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 export default function Footer() {
   const currentYear = new Date().getFullYear()
 
@@ -8,10 +10,13 @@ export default function Footer() {
           {/* Company Info */}
           <div className="md:col-span-2">
             <div className="mb-4">
-              <span className="text-3xl font-bold">
-                <span className="text-white">SNS</span>
-                <span className="text-berlin-orange ml-1">Berlin</span>
-              </span>
+              <Image
+                src="/logo.png"
+                alt="SNS Berlin Logo"
+                width={150}
+                height={50}
+                className="h-12 w-auto"
+              />
             </div>
             <p className="text-blue-100 mb-4 max-w-md">
               Ihr vertrauensvoller Partner für IT-Sicherheit, Netzwerklösungen und 

@@ -33,60 +33,47 @@ export default function Services() {
 
   const services = [
     {
-      title: "IT-Sicherheit",
-      description: "Umfassender Schutz vor Cyberbedrohungen durch moderne Sicherheitslösungen und proaktive Überwachung.",
+      title: "Infrastruktur",
+      description: "Moderne IT-Infrastrukturen für optimale Geschäftsprozesse - von Telefonanlagen bis Hardware-Lösungen.",
       features: [
-        "Penetrationstests",
-        "Vulnerability Assessments", 
-        "Security Monitoring",
-        "Incident Response"
+        "3CX Telefonanlage",
+        "Multifunktionsgeräte",
+        "Gebrauchte IT-Hardware",
+        "Netzwerk-Setup"
       ],
-      icon: "🛡️",
+      icon: "🏗️",
       gradient: "from-blue-500 to-digital-blue",
       color: "text-blue-600"
     },
     {
-      title: "Netzwerklösungen",
-      description: "Planung, Implementierung und Optimierung von Netzwerkinfrastrukturen für maximale Performance.",
+      title: "Cloud-Lösungen",
+      description: "Professionelle Cloud-Services für maximale Flexibilität und Skalierbarkeit Ihres Unternehmens.",
       features: [
-        "Netzwerkdesign",
-        "WLAN-Lösungen",
-        "VPN-Konfiguration",
-        "Performance-Optimierung"
-      ],
-      icon: "🌐",
-      gradient: "from-green-500 to-emerald-600",
-      color: "text-green-600"
-    },
-    {
-      title: "IT-Beratung",
-      description: "Strategische Beratung für Ihre IT-Landschaft mit Fokus auf Sicherheit und Effizienz.",
-      features: [
-        "IT-Strategie",
-        "Compliance-Beratung",
-        "Risikobewertung",
-        "Digitale Transformation"
-      ],
-      icon: "💡",
-      gradient: "from-purple-500 to-indigo-600",
-      color: "text-purple-600"
-    },
-    {
-      title: "Cloud Security",
-      description: "Sichere Migration und Verwaltung Ihrer Cloud-Infrastruktur mit bewährten Sicherheitsstandards.",
-      features: [
+        "Microsoft 365",
+        "Microsoft Azure",
         "Cloud Migration",
-        "Multi-Cloud Management",
-        "Identity & Access Management",
-        "Cloud Compliance"
+        "Hybrid-Cloud-Strategien"
       ],
       icon: "☁️",
       gradient: "from-cyan-500 to-blue-600",
       color: "text-cyan-600"
     },
     {
+      title: "Security",
+      description: "Umfassender Schutz vor Cyberbedrohungen durch modernste Sicherheitstechnologien und SOC-Services.",
+      features: [
+        "Security Operations Center",
+        "WithSecure Lösungen",
+        "Fortinet Firewalls",
+        "Password Manager"
+      ],
+      icon: "🛡️",
+      gradient: "from-red-500 to-rose-600",
+      color: "text-red-600"
+    },
+    {
       title: "Managed Services",
-      description: "Kontinuierliche Überwachung und Wartung Ihrer IT-Systeme durch unser Expertenteam.",
+      description: "Kontinuierliche Überwachung und Wartung Ihrer IT-Systeme durch unser zertifiziertes Expertenteam.",
       features: [
         "24/7 Monitoring",
         "Proaktive Wartung",
@@ -94,21 +81,60 @@ export default function Services() {
         "Help Desk Support"
       ],
       icon: "⚙️",
-      gradient: "from-orange-500 to-red-600",
+      gradient: "from-orange-500 to-berlin-orange",
       color: "text-orange-600"
     },
     {
-      title: "Schulungen",
-      description: "Praxisnahe Schulungen für Ihre Mitarbeiter zu IT-Sicherheit und aktuellen Bedrohungen.",
+      title: "Künstliche Intelligenz",
+      description: "Innovative KI-Lösungen zur Automatisierung und Optimierung Ihrer Geschäftsprozesse.",
       features: [
-        "Security Awareness",
-        "Phishing-Simulationen",
-        "Best Practices",
-        "Individuelle Workshops"
+        "KI-Beratung",
+        "Prozessautomatisierung",
+        "Machine Learning",
+        "AI-Integration"
       ],
-      icon: "🎓",
-      gradient: "from-pink-500 to-rose-600",
-      color: "text-pink-600"
+      icon: "🤖",
+      gradient: "from-purple-500 to-indigo-600",
+      color: "text-purple-600"
+    },
+    {
+      title: "Softwareentwicklung",
+      description: "Maßgeschneiderte Softwarelösungen und Anwendungen für Ihre spezifischen Geschäftsanforderungen.",
+      features: [
+        "Individual-Software",
+        "Web-Anwendungen",
+        "API-Entwicklung",
+        "System-Integration"
+      ],
+      icon: "💻",
+      gradient: "from-green-500 to-emerald-600",
+      color: "text-green-600"
+    },
+    {
+      title: "Anwendungen",
+      description: "Spezialisierte Business-Anwendungen zur Digitalisierung und Optimierung Ihrer Arbeitsabläufe.",
+      features: [
+        "DocuWare DMS",
+        "Workflow-Automation",
+        "Dokumentenmanagement",
+        "Lettershop-Services"
+      ],
+      icon: "📋",
+      gradient: "from-teal-500 to-cyan-600",
+      color: "text-teal-600"
+    },
+    {
+      title: "Backup & Recovery",
+      description: "Zuverlässige Datensicherung und Wiederherstellung für maximalen Schutz Ihrer kritischen Daten.",
+      features: [
+        "Automatische Backups",
+        "Disaster Recovery",
+        "Backup-Restore-Service",
+        "Cloud-Backup-Lösungen"
+      ],
+      icon: "💾",
+      gradient: "from-slate-500 to-gray-600",
+      color: "text-slate-600"
     }
   ]
 
@@ -125,13 +151,13 @@ export default function Services() {
             <span className="block text-berlin-orange">IT-Lösungen</span>
           </h2>
           <p className="text-xl text-neutral-dark max-w-4xl mx-auto leading-relaxed">
-            Von der strategischen Planung bis zur technischen Umsetzung – 
-            wir bieten Ihnen innovative Lösungen für alle Bereiche Ihres digitalen Geschäfts.
+            Von Infrastruktur und Cloud-Services bis hin zu KI und Security – 
+            wir digitalisieren Ihr Unternehmen mit modernsten Technologien und bewährter Expertise.
           </p>
         </div>
 
         {/* Services Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {services.map((service, index) => (
             <div
               key={index}
