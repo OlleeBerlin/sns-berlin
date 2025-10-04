@@ -43,13 +43,10 @@ export default function Header() {
           {/* Logo */}
           <div className="flex-shrink-0">
             <Link href="/" className="flex items-center">
-              <Image
-                src="/logo.png"
+              <img
+                src="/logo.svg"
                 alt="SNS Berlin Logo"
-                width={120}
-                height={40}
-                className="h-10 w-auto"
-                priority
+                className="h-8 w-auto sm:h-10 md:h-12"
               />
             </Link>
           </div>
