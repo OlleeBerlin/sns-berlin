@@ -1,0 +1,22 @@
+/* Typography tokens for SNS Berlin */
+:root {
+  --font-headline: "Public Sans", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  --font-body: "Public Sans", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+
+  --font-size-xxl: 48px;
+  --font-size-xl: 36px;
+  --font-size-lg: 28px;
+  --font-size-md: 20px;
+  --font-size-sm: 16px;
+  --font-size-xs: 14px;
+
+  --line-height-tight: 1.15;
+  --line-height-normal: 1.5;
+  --line-height-relaxed: 1.7;
+}
+
+.h1 { font-family: var(--font-headline); font-weight: 700; font-size: var(--font-size-xl); line-height: var(--line-height-tight); }
+.h2 { font-family: var(--font-headline); font-weight: 600; font-size: var(--font-size-lg); line-height: var(--line-height-tight); }
+.body { font-family: var(--font-body); font-weight: 400; font-size: var(--font-size-sm); line-height: var(--line-height-normal); }
+.mono { font-family: var(--font-mono); font-weight: 400; font-size: var(--font-size-sm); line-height: var(--line-height-normal); }

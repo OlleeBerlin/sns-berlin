@@ -1,0 +1,63 @@
+{
+  "$schema": "https://design-tokens.org/schema.json",
+  "brand": {
+    "color": {
+      "primary": {
+        "value": "#005DA8",
+        "type": "color",
+        "comment": "Digital Blue (SNS)"
+      },
+      "accent": {
+        "value": "#F36F21",
+        "type": "color",
+        "comment": "Orange (Berlin)"
+      },
+      "grey": {
+        "light": {
+          "value": "#F5F5F5",
+          "type": "color"
+        },
+        "mid": {
+          "value": "#E0E0E0",
+          "type": "color"
+        },
+        "dark": {
+          "value": "#333333",
+          "type": "color"
+        }
+      },
+      "text": {
+        "default": {
+          "value": "#333333",
+          "type": "color"
+        },
+        "inverse": {
+          "value": "#FFFFFF",
+          "type": "color"
+        }
+      }
+    }
+  },
+  "semantic": {
+    "surface": {
+      "default": {
+        "value": "#FFFFFF",
+        "type": "color"
+      },
+      "muted": {
+        "value": "{brand.color.grey.light}",
+        "type": "color"
+      }
+    },
+    "cta": {
+      "bg": {
+        "value": "{brand.color.accent}",
+        "type": "color"
+      },
+      "text": {
+        "value": "{brand.color.text.inverse}",
+        "type": "color"
+      }
+    }
+  }
+}
