@@ -10,10 +10,10 @@ export default function Header() {
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null)
 
   const navigation = [
-    { name: 'Home', href: '#home' },
+    { name: 'Home', href: '/' },
     { 
       name: 'Leistungen', 
-      href: '#services',
+      href: '/#services',
       dropdown: [
         { name: 'Infrastruktur', href: '/leistungen/infrastruktur', description: '3CX, Hardware, Netzwerk' },
         { name: 'Cloud-Lösungen', href: '/leistungen/cloud', description: 'Microsoft 365, Azure' },
@@ -26,14 +26,15 @@ export default function Header() {
     },
     { 
       name: 'Unternehmen', 
-      href: '#team',
+      href: '/team',
       dropdown: [
         { name: 'Über uns', href: '/unternehmen/ueber-uns', description: 'Unser Team & Vision' },
+        { name: 'Team', href: '/team', description: 'Unser Expertenteam' },
         { name: 'Referenzen', href: '/unternehmen/referenzen', description: 'Erfolgreiche Projekte' },
         { name: 'Karriere', href: '/unternehmen/karriere', description: 'Jobs & Praktika' }
       ]
     },
-    { name: 'Kontakt', href: '#contact' },
+    { name: 'Kontakt', href: '/kontakt' },
   ]
 
   return (

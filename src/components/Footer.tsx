@@ -41,24 +41,24 @@ export default function Footer() {
             <h3 className="text-lg font-semibold mb-4">Navigation</h3>
             <ul className="space-y-2">
               <li>
-                <a href="#home" className="text-blue-100 hover:text-berlin-orange transition-colors">
+                <Link href="/" className="text-blue-100 hover:text-berlin-orange transition-colors">
                   Home
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#services" className="text-blue-100 hover:text-berlin-orange transition-colors">
+                <Link href="/#services" className="text-blue-100 hover:text-berlin-orange transition-colors">
                   Leistungen
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#team" className="text-blue-100 hover:text-berlin-orange transition-colors">
+                <Link href="/team" className="text-blue-100 hover:text-berlin-orange transition-colors">
                   Team
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#contact" className="text-blue-100 hover:text-berlin-orange transition-colors">
+                <Link href="/kontakt" className="text-blue-100 hover:text-berlin-orange transition-colors">
                   Kontakt
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -68,24 +68,24 @@ export default function Footer() {
             <h3 className="text-lg font-semibold mb-4">Services</h3>
             <ul className="space-y-2">
               <li>
-                <a href="#services" className="text-blue-100 hover:text-berlin-orange transition-colors">
+                <Link href="/leistungen/security" className="text-blue-100 hover:text-berlin-orange transition-colors">
                   IT-Sicherheit
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#services" className="text-blue-100 hover:text-berlin-orange transition-colors">
+                <Link href="/leistungen/infrastruktur" className="text-blue-100 hover:text-berlin-orange transition-colors">
                   Netzwerklösungen
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#services" className="text-blue-100 hover:text-berlin-orange transition-colors">
-                  Cloud Security
-                </a>
+                <Link href="/leistungen/cloud" className="text-blue-100 hover:text-berlin-orange transition-colors">
+                  Cloud-Lösungen
+                </Link>
               </li>
               <li>
-                <a href="#services" className="text-blue-100 hover:text-berlin-orange transition-colors">
+                <Link href="/leistungen/managed-services" className="text-blue-100 hover:text-berlin-orange transition-colors">
                   Managed Services
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
